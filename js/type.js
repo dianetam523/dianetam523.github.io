@@ -455,4 +455,4 @@
 
     function newTyped(){ /* A new typed object */ }
 
-    function foo(){ console.log("Callback"); }
+    // function foo(){ console.log("Callback"); }

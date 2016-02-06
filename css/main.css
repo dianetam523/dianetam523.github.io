@@ -98,3 +98,10 @@ p {
 .dropdown-menu li a:hover {
     background-color: red !important;
 }
+
+#about {
+    background: #FCF1E8; /* TODO: CHANGE THIS BACKGROUND!*/
+}
+#contact {
+    background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
+}
