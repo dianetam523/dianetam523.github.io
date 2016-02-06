@@ -1,7 +1,7 @@
 body {
     overflow-x: hidden;
     overflow-y: auto;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Century Gothic", sans-serif;
     background-color: white;
     color: #000000;
 }
@@ -51,7 +51,6 @@ p {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 }
-
 /* NAVIGATION BAR STYLING */
 /* Add a dark background color with a little bit see-through */ 
 .navbar {
