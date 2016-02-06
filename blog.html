@@ -10,27 +10,27 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <!-- Smooth scrolling script -->
   <script>
-  $(document).ready(function(){
-    // Add smooth scrolling to all links in navbar + footer link
-    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  // $(document).ready(function(){
+  //   // Add smooth scrolling to all links in navbar + footer link
+  //   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-    // Prevent default anchor click behavior
-    event.preventDefault();
+  //   // Prevent default anchor click behavior
+  //   event.preventDefault();
 
-    // Store hash
-    var hash = this.hash;
+  //   // Store hash
+  //   var hash = this.hash;
 
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function(){
+  //   // Using jQuery's animate() method to add smooth page scroll
+  //   // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  //   $('html, body').animate({
+  //     scrollTop: $(hash).offset().top
+  //   }, 900, function(){
 
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-      });
-    });
-  })
+  //     // Add hash (#) to URL when done scrolling (default click behavior)
+  //     window.location.hash = hash;
+  //     });
+  //   });
+  // })
   </script>
 </head>
 <!-- Scrollspy-->
@@ -49,16 +49,16 @@
 	    </div>
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#indexCarousel">HOME</a></li>
-	        <li><a href="#about">ABOUT ME</a></li>
-	        <li><a href="#contact">CONTACT</a></li>
+	        <li><a href="index.html">HOME</a></li>
+	        <li><a href="index.html#about">ABOUT ME</a></li>
+	        <li><a href="index.html#contact">CONTACT</a></li>
 	        <li class="dropdown">
 	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
 	            <span class="caret"></span>
 	          </a>
 	          <ul class="dropdown-menu">
 	            <li><a href="blog.html">Blog</a></li>
-	            <li><a href="#">Download Resume</a></li>
+	            <li><a href="resume.pdf">Download Resume</a></li>
 	            <li><a href="#">Media</a></li> 
 	          </ul>
 	        </li>
