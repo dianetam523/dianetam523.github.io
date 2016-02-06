@@ -1,5 +1,5 @@
-#canvas-wrap { position:relative; margin: auto; width:800px; height:600px }
-#overlay     { position:absolute; top:20px; left:30px; }
+#canvas-wrap { position:relative; margin: auto;}
+#overlay     { position:absolute; top:50%; left:50%; transform: translate(-50%, -50%);}
 #typed{
   color: black;
 }
