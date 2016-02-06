@@ -46,9 +46,9 @@ var stats = new Stats();
 				width: window.innerWidth,
 				height: window.innerHeight,
 				velocity: 0.1,
-				length: 100,
-				distance: 120,
-				radius: 150,
+				length: 120,
+				distance: 0.12*window.innerWidth,
+				radius: 10*window.innerWidth,
 				stars: []
 			},
 			config = $.extend(true, {}, defaults, options);
