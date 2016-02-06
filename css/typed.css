@@ -1,0 +1,51 @@
+#canvas-wrap { position:relative; margin: auto; width:800px; height:600px }
+#overlay     { position:absolute; top:20px; left:30px; }
+#typed{
+  color: black;
+}
+#type-wrap{
+    margin: auto;
+}
+/* code for animated blinking cursor */
+#typed-cursor{
+    opacity: 1;
+    padding: 0 1px 0 1px;
+    margin-left: 3px;
+/*    background: #29DD33; */
+    color: white;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    }
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
