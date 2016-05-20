@@ -5,9 +5,7 @@ body {
     background-color: white;
     color: #000000;
 }
-h1 {
-    font color: white;
-}
+
 p {
     line-height: 2em;
     margin:0 0 20px;
@@ -17,11 +15,31 @@ p {
 .jumbotron {
     overflow-x: hidden;
     overflow-y: hidden;
-    background: white;
+    background-color: black;
+    background-image: url("../images/sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 60em;
 }
 
 .container {
-	padding: 80px 120px;
+	padding: 0px 120px;
+}
+.propic {
+    width: 30%;
+    height: 30%;
+}
+
+.skill {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 60%;
+    height: 60%;
+    opacity: 0.8;
+    background-color: grey;
 }
 
 .person {
@@ -38,7 +56,7 @@ p {
 
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */ 
+    filter: grayscale(90%); /* make all photos black and white */
     width: 100%; /* Set width to 100% */
     margin: auto;
 }
@@ -53,7 +71,7 @@ p {
     }
 }
 /* NAVIGATION BAR STYLING */
-/* Add a dark background color with a little bit see-through */ 
+/* Add a dark background color with a little bit see-through */
 .navbar {
     margin-bottom: 0;
     background-color: #2d2d30;
@@ -64,7 +82,7 @@ p {
 }
 
 /* Add a gray color to all navbar links */
-.navbar li a, .navbar .navbar-brand { 
+.navbar li a, .navbar .navbar-brand {
     color: #d5d5d5 !important;
 }
 

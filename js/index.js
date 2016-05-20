@@ -36,7 +36,7 @@ var stats = new Stats();
 					width: 1
 				},
 				line: {
-					color: 'rgba(237, 74, 182, 0.92)',
+					color: 'rgba(255, 255, 255, 1)',
 					width: 0.2
 				},
 				position: {
@@ -203,7 +203,7 @@ $('canvas').constellation({
 		width: 3
 	},
 	line: {
-		color: 'rgba(237, 74, 182, 0.92)'
+		color: 'rgba(255, 255, 255, 1)'
 	},
 	radius: 250
 });
