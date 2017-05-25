@@ -34,8 +34,8 @@ p {
     overflow-x: hidden;
     overflow-y: hidden;
     background-color: black;
-    background-image: url("../images/sunset.jpg");
-    background-size: auto auto;
+    background-image: url("../images/waterfall.jpg");
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
 /*    margin: 0px;
