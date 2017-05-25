@@ -15,31 +15,32 @@ p {
 
 #about {
     background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
+    padding: 50px;
 }
 #contact {
     background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
     overflow-x: hidden;
     overflow-y: hidden;
-    background-image: url("../images/mountain.jpg");
-    background-size: auto auto;
+    background-image: url("../images/water.jpg");
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0px;
+/*    margin: 0px;
     padding: 70px;
-    height: 35em;
+    height: 35em;*/
 }
 
 .jumbotron {
     overflow-x: hidden;
     overflow-y: hidden;
     background-color: black;
-    background-image: url("../images/waterfall.jpg");
+    background-image: url("../images/sunset.jpg");
     background-size: auto auto;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0px;
+/*    margin: 0px;
     padding: 0px;
-    height: 60em;
+    height: 60em;*/
 }
 
 .container {
