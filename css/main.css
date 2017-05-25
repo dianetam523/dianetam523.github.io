@@ -15,19 +15,18 @@ p {
 
 #about {
     background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
-    padding: 50px;
+    padding: 30px;
 }
 #contact {
-    background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
     overflow-x: hidden;
     overflow-y: hidden;
     background-image: url("../images/water.jpg");
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-/*    margin: 0px;
+    margin: 0px;
     padding: 70px;
-    height: 35em;*/
+    height: 30em;
 }
 
 .jumbotron {
@@ -35,12 +34,11 @@ p {
     overflow-y: hidden;
     background-color: black;
     background-image: url("../images/waterfall.jpg");
-    background-size: 100% auto;
+     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-/*    margin: 0px;
+    margin: 0px;
     padding: 0px;
-    height: 60em;*/
 }
 
 .container {
@@ -60,6 +58,16 @@ p {
     height: 60%;
     /*opacity: 0.8;*/
     background-color: gray;
+}
+
+.skill:hover {
+    border: 0.3em solid transparent;
+    border-color: gray;
+    margin-bottom: 25px;
+    width: 60%;
+    height: 60%;
+    opacity: 0.8;
+    background-color: black;
 }
 
 .person {
