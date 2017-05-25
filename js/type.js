@@ -443,7 +443,7 @@
             contentType: 'html', // or text
             // defaults to false for infinite loop
             loopCount: false,
-            callback: function(){ foo(); },
+            callback: function(){ },
             resetCallback: function() { newTyped(); }
         });
 

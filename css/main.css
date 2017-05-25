@@ -7,19 +7,36 @@ body {
 }
 
 p {
-    line-height: 2em;
-    margin:0 0 20px;
+    /*line-height: 2em;*/
+    /*margin:0 0 20px;*/
     text-align: center;
     color: black;
 }
+
+#about {
+    background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
+}
+#contact {
+    background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("../images/mountain.jpg");
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    padding: 70px;
+    height: 35em;
+}
+
 .jumbotron {
     overflow-x: hidden;
     overflow-y: hidden;
     background-color: black;
-    background-image: url("../images/sunset.jpg");
+    background-image: url("../images/waterfall.jpg");
+    background-size: auto auto;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
     margin: 0px;
     padding: 0px;
     height: 60em;
@@ -34,12 +51,14 @@ p {
 }
 
 .skill {
-    border: 10px solid transparent;
+    border: 0.3em solid transparent;
+    border-color: gray;
+    /* orange star color: #f77307; */
     margin-bottom: 25px;
     width: 60%;
     height: 60%;
-    opacity: 0.8;
-    background-color: grey;
+    /*opacity: 0.8;*/
+    background-color: gray;
 }
 
 .person {
@@ -116,11 +135,4 @@ p {
 /* On hover, the dropdown links will turn red */
 .dropdown-menu li a:hover {
     background-color: red !important;
-}
-
-#about {
-    background: #FCF1E8; /* TODO: CHANGE THIS BACKGROUND!*/
-}
-#contact {
-    background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
 }
