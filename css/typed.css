@@ -19,8 +19,8 @@
 }
 #typed{
     padding: 10px;
-  color: white;
-  font-size: 30px;
+    color: white;
+    font-size: 25px;
 }
 #overlay_bottom { position:absolute; top:105%; left:80%; transform: translate(-50%, -50%);}
 

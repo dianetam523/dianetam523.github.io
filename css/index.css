@@ -4,6 +4,10 @@ body {
     font-family: "Century Gothic", sans-serif;
     background-color: white;
     color: #000000;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
 }
 
 p {
@@ -17,23 +21,12 @@ p {
     background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
     padding: 30px;
 }
-#contact {
-    overflow-x: hidden;
-    overflow-y: hidden;
-    background-image: url("../images/water.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0px;
-    padding: 70px;
-    height: 30em;
-}
 
 .jumbotron {
     overflow-x: hidden;
     overflow-y: hidden;
     background-color: black;
-    background-image: url("../images/waterfall.jpg");
+    background-image: url("../images/water.jpg");
      background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -80,34 +73,6 @@ p {
     background-color: #f77307;
 }
 
-.person {
-    border: 10px solid transparent;
-    margin-bottom: 25px;
-    width: 80%;
-    height: 80%;
-    opacity: 0.8;
-}
-.person:hover {
-    border-color: white;
-    opacity: 0.95;
-}
-
-.carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-}
-
-.carousel-caption h3 {
-    color: #fff !important;
-}
-
-@media (max-width: 600px) {
-    .carousel-caption {
-        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-}
 /* NAVIGATION BAR STYLING */
 /* Add a dark background color with a little bit see-through */
 .navbar {
@@ -117,22 +82,24 @@ p {
     font-size: 11px !important;
     letter-spacing: 4px;
     opacity:0.9;
+    transition-duration: 0.7s;
 }
 
 /* Add a gray color to all navbar links */
 .navbar li a, .navbar .navbar-brand {
-    color: #d5d5d5 !important;
+    color: #a6a6a6 !important;
 }
 
-/* On hover, the links will turn white */
+/* On hover, the links will turn darker gray */
 .navbar-nav li a:hover {
-    color: #fff !important;
+    color: #bfbfbf !important;
 }
 
 /* The active link */
 .navbar-nav li.active a {
     color: #f77307 !important;
-    background-color:#29292c !important;
+    /*background-color:#29292c !important;*/
+    background-color: transparent !important; 
 }
 
 /* Remove border color from the collapsible button */
@@ -148,10 +115,45 @@ p {
 
 /* Dropdown links */
 .dropdown-menu li a {
-    color: #000 !important;
+    color: #999999 !important;
 }
 
 /* On hover, the dropdown links will turn orange */
 .dropdown-menu li a:hover {
     background-color: orange !important;
+    color: white !important;
+}
+
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }

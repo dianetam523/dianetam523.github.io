@@ -1,0 +1,172 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: "Century Gothic", sans-serif;
+    color: #000000;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+body::after{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+
+    content: "";
+    background-image: url("../images/waves.jpg");
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+a {
+    color: #f77307;
+}
+a:hover {
+    color: #f77307;
+}
+p {
+    text-align: center;
+    color: black;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+.container {
+    background-color: white;
+    border-radius: 70px;
+    opacity: 0.8;
+	padding: 10px 120px;
+}
+
+#photos {
+    margin-top: 100px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+#writing {
+    padding: 45px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+.albumTitle {
+    list-style-type: none;
+    font-size: 20px !important;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+.albumSpecs {
+    margin-left: 7px;
+    list-style-type: none;
+    font-size: 13px !important;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+/* NAVIGATION BAR STYLING */
+/* Add a dark background color with a little bit see-through */
+.navbar {
+    margin-bottom: 10pc;
+    background-color: white;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    transition-duration: 0.7s;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #595959 !important;
+}
+
+/* On hover, the links will turn darker gray */
+.navbar-nav li a:hover {
+    color: #bfbfbf !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #f77307 !important;
+    /*background-color:#29292c !important;*/
+    background-color: transparent !important; 
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff !important;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #999999 !important;
+}
+
+/* On hover, the dropdown links will turn orange */
+.dropdown-menu li a:hover {
+    background-color: orange !important;
+    color: white !important;
+}
+
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
