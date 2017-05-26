@@ -13,7 +13,7 @@ $(document).ready(function(){
    var offset = startchange.offset();
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top +10) {
+      if(scroll_start > offset.top +650) {
           $('.navbar').css('background-color', 'transparent');
        } else {
           $('.navbar').css('background-color', 'rgba(34,34,34,0.9)');
