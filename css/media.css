@@ -44,11 +44,15 @@ p {
     -o-animation: fadein 2s; /* Opera */
 }
 
+h4 {
+    margin-left: 80px;
+}
+
 .container {
     background-color: white;
     border-radius: 70px;
     opacity: 0.8;
-	padding: 10px 120px;
+	padding: 10px 0px;
 }
 
 #photos {
