@@ -10,13 +10,13 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<!-- Stuff for Typed.js-->
+  <!-- Stuff for Typed.js-->
   <link rel="stylesheet" type="text/css" href="css/typed.css" />
   <script src="js/type.js" type="text/javascript"></script>
-<!-- Stuff for constellation canvas -->
+  <!-- Stuff for constellation canvas -->
   <script src='http://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js'></script>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js'></script>
-<!-- Other JS scripts-->
+  <!-- Other JS scripts-->
   <script src="js/main.js" type="text/javascript"></script>
 
 </head>
@@ -33,13 +33,13 @@
         <h1>Hello! My name is Diane.</h1>
 
         <div class="type-wrap">
-            <div id="typed-strings">
-                <p>I'm a <strong>student</strong>.</p>
-                <p>I'm a <strong>software engineer</strong>.</p>
-                <p>I'm an <strong>explorer</strong>.</p>
-                <p>Go ahead and scroll on <em>down</em>...</p>
-            </div>
-            <span id="typed" style="white-space:pre;"></span>
+          <div id="typed-strings">
+            <p>I'm a <strong>student</strong>.</p>
+            <p>I'm a <strong>software engineer</strong>.</p>
+            <p>I'm an <strong>explorer</strong>.</p>
+            <p>Go ahead and scroll on <em>down</em>...</p>
+          </div>
+          <span id="typed" style="white-space:pre;"></span>
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" aria-expanded="false" aria-controls="skills" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -61,81 +61,70 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#index">HOME</a></li>
           <li><a href="#about">ABOUT ME</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <!-- <li><a href="#contact">CONTACT</a></li> -->
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-	            <span class="caret"></span>
-	          </a>
-            <ul class="dropdown-menu">
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="resume.pdf">Download Resume</a></li>
-              <li><a href="#">Media</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+             <span class="caret"></span>
+           </a>
+           <ul class="dropdown-menu">
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="resume.pdf">Download Resume</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
-  </nav>
-  <div>
   </div>
+</nav>
+<div>
+</div>
 
-  <!-- Container with text and 3 collapsible images -->
-  <div id = "about">
+<!-- Container with text and 3 collapsible images -->
+<div id = "about">
   <div class="container text-center">
-        <div>
-  <br>
-    <img src="images/me.jpg" class="img-circle propic" alt="diane">
-  </div>
+    <div>
       <br>
-  <br>
+      <img src="images/me.jpg" class="img-circle propic" alt="diane">
+    </div>
+    <br>
+    <br>
     <h3><strong>ABOUT</strong>ME</h3>
 
     <p><em>It’s not that I’m so smart, it’s just that I stay with problems longer.</em></p> <p>~ ALBERT EINSTEIN </p>
     <br>
 
+
     <div class="row">
       <div class="col-sm-4">
-         <button type="button" class="btn btn-default" data-toggle="collapse" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Button #1</button>
-  <button type="button" class="btn btn-default" data-toggle="collapse" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Button #2</button>
 
-  <div id="collapse-1" class="collapse" aria-expanded="false" data-collapse-group="collapse-group">
-    Content #1
-  </div>
-  <div id="collapse-2" class="collapse" aria-expanded="false" data-collapse-group="collapse-group">
-    Content #2
-  </div>
         <p><strong>Skills</strong></p>
         <!-- Makes images collapsible-->
-        <a href="#skills" data-toggle="collapse">
+        <a href="#skills" data-toggle="collapse" aria-expanded="false" aria-controls="skills">
           <img src="images/skills.png" class="skill img-circle" alt="skills">
         </a>
-        <div id="skills" class="collapse">
-          <p>Java, C, Ruby, Scala, Python</p>
-          <p>HTML, CSS, Javascript, AJAX, Ruby on Rails, MySQL, Unity3D</p>
-          <p>Windows, Unix/Linux, Mac OSX</p>
-          <p>Student at University of Massachusetts Amherst</p>
-          <p>Computer Science and Mathematics, minor in Economics</p>
-          <p>Enjoys longboarding, playing badminton, and all things artistic</p>
+        <div id="skills" class="collapse" aria-expanded="false" data-collapse-group="collapse-group">
+          <p>Hobbies include: longboarding, hiking, calligraphy</p>
+          <p>Download my <a href="resume.pdf">resume</a></p>
         </div>
       </div>
       <div class="col-sm-4">
         <p><strong>Education</strong></p>
-        <a href="#education" data-toggle="collapse">
-        <img src="images/book.png" class="img-circle skill" alt="diane">
+        <a href="#education" data-toggle="collapse" aria-expanded="false" aria-controls="education">
+          <img src="images/book.png" class="img-circle skill" alt="diane">
         </a>
-        <div id="education" class="collapse">
-          <p>Student at University of Massachusetts Amherst</p>
-          <p>Computer Science and Mathematics, minor in Economics</p>
+        <div id="education" class="collapse" aria-expanded="false" data-collapse-group="collapse-group">
+          <p>Rising Junior (B.S. Class of 2018) at <a href="http://www.umass.edu/">University of Massachusetts Amherst</a></p>
+          <p>Member of the <a href="http://www.honors.umass.edu/">Commonwealth Honors College</a></p>
+          <p>Majoring in <a href="http://www.cics.umass.edu/">Computer Science</a> and <a href="http://www.math.umass.edu/">Mathematics</a>, minoring in <a href="http://www.umass.edu/economics/">Economics</a></p>
         </div>
       </div>
       <div class="col-sm-4">
-        <a href="#blog" data-toggle="collapse">
-        <p><strong>Blog</strong></p>
-        <img src="images/blog.png" class="img-circle skill" alt="diane">
+        <a href="#blog" data-toggle="collapse" aria-expanded="false" aria-controls="blog">
+          <p><strong>Blog</strong></p>
+          <img src="images/blog.png" class="img-circle skill" alt="diane">
         </a>
-        <div id="blog" class="collapse">
-          <p>Student at University of Massachusetts Amherst</p>
-          <p>Computer Science and Mathematics, minor in Economics</p>
+        <div id="blog" class="collapse" aria-expanded="false" data-collapse-group="collapse-group">
+          <p><a href="http://www.facebook.com/whitesolstice">Photograpy</a></p>
+          <p><a href="http://medium.com/@dianetam">Writing</a><p>
         </div>
       </div>
     </div>
@@ -146,38 +135,45 @@
       <div class="col-sm-4">
         <p><strong>Projects</strong></p>
         <!-- Makes images collapsible-->
-        <a href="#projects" data-toggle="collapse">
+        <a href="#projects" data-toggle="collapse" aria-expanded="false" aria-controls="projects">
           <img src="images/github-character.png" class="img-circle skill" alt="diane">
         </a>
-        <div id="projects" class="collapse">
-          <p>Visit my GitHub page here!</p>
+        <div id="projects" class="collapse" aria-expanded="false" data-collapse-group="collapse-group">
+          <p>Current Projects:</p>
+          <p>Researching error metrics for visualization of differentially private data under Professor <a href="http://people.cs.umass.edu/~miklau/">Gerome Miklau</a></p>
+          <p>Visit my <a href="http://dianetam523.github.io/">Github</a> page!</p>
         </div>
       </div>
       <div class="col-sm-4">
-        <p><strong>Other</strong></p>
-        <a href="#other" data-toggle="collapse">
-        <img src="images/message.png" class="img-circle skill" alt="diane">
+        <p><strong>Currently Reading</strong></p>
+        <a href="#other" data-toggle="collapse" aria-expanded="false" aria-controls="other">
+          <img src="images/message.png" class="img-circle skill" alt="diane">
         </a>
-        <div id="other" class="collapse">
-          <p>Student at University of Massachusetts Amherst</p>
-          <p>Read more here</p>
+        <div id="other" class="collapse" aria-expanded="false" data-collapse-group="collapse-group">
+          <p><em>The Tipping Point</em> by Malcom Gladwell</p>
+          <p><em>Freakonomics</em> by Steven D. Levitt and Stephen J. Dubner</p>
+          <p><em>The Signal and the Noise</em> by Nate Silver</p>
         </div>
       </div>
       <div class="col-sm-4">
         <p><strong>Connect with me!</strong></p>
-        <a href="#connect" data-toggle="collapse">
-        <img src="images/social.png" class="img-circle skill" alt="diane">
+        <a href="#connect" data-toggle="collapse" aria-expanded="false" aria-controls="connect">
+          <img src="images/social.png" class="img-circle skill" alt="diane">
         </a>
-        <div id="connect" class="collapse">
+        <div id="connect" class="collapse" aria-expanded="false" data-collapse-group="collapse-group">
           <p>Find me on:</p>
-          <p>LinkedIn</p>
+          <a href="http://www.facebook.com/whitesolstice">Facebook</a>
+          <br>
+          <a href="http://www.linkedin.com/in/dianetam/">LinkedIn</a>
+          <p>Good ole snail mail:</p>
+          <p> Lewis Hall, Room 425 <br> 340 Thatcher Road, Amherst MA 01003-9359 </p>
         </div>
       </div>
     </div>
   </div>
 </div>
-  <!-- Container with contact info box -->
-  <div id = "contact">
+<!-- Container with contact info box -->
+<!-- <div id = "contact">
   <div class="container contact">
     <h3 class="text-center">Contact</h3>
     <p class="text-center"><em>Questions, comments, professional inquiries?</em></p>
@@ -209,9 +205,20 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+<script>
+$("[data-collapse-group]").on('show.bs.collapse', function () {
+  var $this = $(this);
+  var thisCollapseAttr = $this.attr('data-collapse-group');
+  $("[data-collapse-group='" + thisCollapseAttr + "']").not($this).collapse('hide');
+  $('.activeskill').removeClass('activeskill')
+  $(document.activeElement.getElementsByTagName("img")[0]).addClass('activeskill')
 
+});
+</script>
+</body>
 <footer>
   <p>Love, Diane Tam | © 2017</p>
 </footer>
+
 </html>

@@ -66,8 +66,18 @@ p {
     margin-bottom: 25px;
     width: 60%;
     height: 60%;
-    opacity: 0.8;
-    background-color: black;
+    /*opacity: 0.8;*/
+    background-color: #f77307;
+}
+
+.activeskill {
+    border: 0.3em solid transparent;
+    border-color: gray;
+    margin-bottom: 25px;
+    width: 60%;
+    height: 60%;
+    /*opacity: 0.8;*/
+    background-color: #f77307;
 }
 
 .person {
@@ -121,7 +131,7 @@ p {
 
 /* The active link */
 .navbar-nav li.active a {
-    color: #fff !important;
+    color: #f77307 !important;
     background-color:#29292c !important;
 }
 
@@ -132,7 +142,7 @@ p {
 
 /* Dropdown */
 .open .dropdown-toggle {
-    color: #fff ;
+    color: #f77307 ;
     background-color: #555 !important;
 }
 
@@ -141,7 +151,7 @@ p {
     color: #000 !important;
 }
 
-/* On hover, the dropdown links will turn red */
+/* On hover, the dropdown links will turn orange */
 .dropdown-menu li a:hover {
-    background-color: red !important;
+    background-color: orange !important;
 }
