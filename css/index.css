@@ -17,6 +17,10 @@ p {
     color: black;
 }
 
+footer a {
+    color: #f77307;
+}
+
 #about {
     background: #ffffff; /* TODO: CHANGE THIS BACKGROUND!*/
     padding: 30px;
